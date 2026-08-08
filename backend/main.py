@@ -5,4 +5,4 @@ app = FastAPI(title="MLObservatory")
 
 @app.get("/")
 def root():
-    return {"message": "MLObservatory API is running"}
+    return {"message": "MLObservatory is running"}
